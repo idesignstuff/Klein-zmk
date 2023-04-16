@@ -201,9 +201,9 @@
         PS_LAYER {
             label = " PhotoShop";
             bindings = <
-   &kp LALT    &kp W       &kp E        &kp R        &kp T               &trans        &trans        &trans      &trans      &trans
-   &kp LSHFT   &kp S       &kp D        &kp F        &kp G               &kp K_PREV  &kp K_VOL_DN  &kp K_VOL_UP  &kp K_NEXT      &trans
-    &kp LCTRL   &kp LC(X) &kp LC(C)  &kp LC(V) &kp B                     &trans        &trans      &trans      &trans  &trans
+   &kp LALT    &kp W       &kp E        &kp R        &kp T               &trans        &trans        &trans        &trans          &bl BL_INC
+   &kp LSHFT   &kp S       &kp D        &kp F        &kp G               &kp K_PREV    &kp K_VOL_DN  &kp K_VOL_UP  &kp K_NEXT      &bl BL_DEC
+    &kp LCTRL   &kp LC(X) &kp LC(C)  &kp LC(V) &kp B                     &trans        &trans        &trans        &trans          &bl BL_TOG
                                    &trans  &trans  &tog 0  &kp LC(Z)  &bootloader   &kp K_STOP2    &kp K_PP  &kp K_MUTE
             >;
             sensor-bindings = <&inc_dec_kp  LBKT RBKT &inc_dec_kp LS(LBKT) LS(RBKT)>;
